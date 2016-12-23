@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+
+<head>
+	<script type="text/javascript">
+		function load()
+		{
+			var aud= new Audio('005_-_Main_Theme.mp3');
+			aud.play();
+		}
+	</script>
+	<style type="text/css">
+		body
+		{background-image:url('start.jpg'); height:680px; width:1300px; position:fixed;}
+		
+		#button
+		{height:600px; width:600px; margin-left:500px; margin-top:330px;}
+		
+		#button img
+		{height:100px; width:250px; -webkit-transition: all 1s ease; }
+		
+		#title { position: absolute; top: 180px; left:300px;}
+
+	</style>
+</head>
+<body onload="load()">
+	<div id="header">
+	</div>
+	<div id="button">
+		<table>
+			<tr>
+				<td>
+					<a href="game.html"><img src="gamestart.jpg"/></a>
+				</td>
+
+			</tr>
+			<tr>
+				<td>
+					<a href="rule.html"><img src="title2.jpg"/></a>
+				</td>
+
+			</tr>
+		</table>
+	</div>
+	<img src="title1.jpg" id="title" width="750" height="90"> 
+
+</body>
+</html>
